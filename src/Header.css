@@ -1,0 +1,40 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header__logo{
+    height: 25px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+.header__center{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 2px solid black;
+}
+.search_icons{
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px slid lightgray ;
+    color: gray;
+}
+.header__center > input{
+    flex: 1;
+    border: none;
+}
+.material__icons{
+    margin-right: 8px;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    object-fit: cover;
+  }
