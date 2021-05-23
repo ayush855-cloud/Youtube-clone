@@ -36,6 +36,18 @@
     font-size: 25px;
     color: #606060;
 }
+.VideoRow__avatar{
+    display: flex;
+    position: relative;
+}
+.VideoRow__avatar>.avatar{
+    margin-top: 16px !important;
+    margin-left: 4px !important;
+}
+.VideoRow__description{
+    position: absolute;
+    left: 50px;
+}
 /* span{
     background-color: lightgray;
 
@@ -53,10 +65,26 @@
     .VideoRow__details > img{
         width: 460px;
     }
+    .VideoRow__avatar {
+        display: flex;
+        position: relative;
+        width: 90%;
+        align-items: center;
+        justify-content:space-between;
+    }
+    .VideoRow__avatar>.avatar{
+        margin-top: 16px !important;
+    }
     .videoRow__headline{
         font-size: 20px;
     }
     .VideoRow__text>h3{
         font-size: 28px;
+    }
+    .VideoRow__description{
+        position: absolute;
+        left: 48px;
+        font-weight: 600;
+        /* margin-right: 100px; */
     }
 } 

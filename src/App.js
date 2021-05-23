@@ -3,7 +3,7 @@ import React,{useState} from 'react';
 import './App.css';
 import Sidebar from './Sidebar';
 import RecommendedVideos from './RecommendedVideos';
-import { BrowserRouter as Router, Switch, Route, useLocation,useParams } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import SearchPage from './SearchPage';
 import Footer from './Footer';
 import Home from '@material-ui/icons/Home';

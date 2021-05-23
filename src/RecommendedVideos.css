@@ -18,8 +18,11 @@
         /* width: 180%; */
         /* width: 120%; */
         /* margin-left: 25px ; */
-        padding: 40px 20px;
+        padding: 40px 11px;
         /* display: none; */
         
+    }
+    .RecommendedVideos__videos:last-child{
+        margin-bottom: -58px;
     }
 }
