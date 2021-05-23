@@ -1,16 +1,16 @@
 .SidebarRow{
     display: flex;
     align-items: center;
-    padding: 10px 20px;
+    padding: 15px 20px;
 }
 .sidebar__icon{
     color: #606060;
-    font-size: 20px !important;  
+    font-size: 28px !important;  
 }
 .sidebar__title{
     flex: 1;
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 500;
 }
 .SidebarRow:hover{

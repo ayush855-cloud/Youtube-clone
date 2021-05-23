@@ -12,6 +12,7 @@ import OndemandVideoIcon from '@material-ui/icons/OndemandVideo';
 import WatchLaterIcon from '@material-ui/icons/WatchLater';
 import ThumbsUpDownIcon from '@material-ui/icons/ThumbsUpDown';
 import ExpandMoreOutlinedIcon from '@material-ui/icons/ExpandMoreOutlined';
+import { Avatar } from '@material-ui/core';
 
 function Sidebar() {
     return (
@@ -27,6 +28,13 @@ function Sidebar() {
             <SidebarRow Icon={ThumbsUpDownIcon} Title="Liked videos" />
             <SidebarRow Icon={ExpandMoreOutlinedIcon} Title="Show more" />
             <hr/>
+            <h3 className="sub">SUBSCRIPTIONS</h3>
+            <SidebarRow Icon={Avatar} Title="England and Cricket Wales" />
+            <SidebarRow Icon={Avatar} Title="Melodity Hits" />
+            <SidebarRow Icon={Avatar} Title="BB KI Vines" />
+            <SidebarRow Icon={Avatar} Title="Harsh Beniwal" />
+            <SidebarRow Icon={Avatar} Title="Sundar Pichai" />
+            <SidebarRow Icon={Avatar} Title="Clever Programmer" />
         </div>
     )
 }

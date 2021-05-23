@@ -1,9 +1,23 @@
 .sidebar{
-    flex: 0.2;
+    flex: 0.15;
 }
 .sidebar > hr{
     border: 0;
     height: 1px;
     background-color: lightgray;
     margin: 10px;
+}
+.sub{
+    /* padding-left: 20px;
+     */
+     color: rgb(161, 153, 153);
+     letter-spacing: 1px;
+     margin-left: 25px;
+}
+@media screen and (max-width:600px){
+    .sidebar{
+        display: none;
+        /* flex: 0; */
+        /* visibility: hidden; */
+    }
 }

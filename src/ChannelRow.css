@@ -15,10 +15,36 @@
 }
 .channelRow__text > p{
     color: gray;
-    font-size: small !important;
+    font-size: 15px;
+    margin-bottom: 6px;
+    
 }
 .channelRow__text > h4{
     display: flex;
+    font-size: 24px;
+    margin-bottom: 15px;
     align-items: center;
     justify-content: space-between;
+}
+@media (min-width:300px) and (max-width:600px){
+    .channelRow{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: -25px;
+        width: 65%;
+        height: 6%;
+    }
+    .channelRow__logo{
+        width: 120px !important;
+        height: 130px !important;
+        margin: 10px 60px;
+        object-fit: cover;
+    }
+    .channelRow__text > h4{
+        font-size: 32px;
+    }
+    .channelRow__text > p{
+        font-size: 20px;
+    }
+
 }

@@ -1,4 +1,27 @@
 .app__page{
     display: flex;
+    /* width: 159%; */
 
+}
+.footer{
+    display: none;
+}
+@media (min-width:280px) and (max-width:600px){
+   /* .app__page{
+       width: 83%;
+   } */
+   .footer{
+       position: sticky;
+       color: rgb(83, 81, 81);
+       padding-left: 10px;
+       left: 20;
+       bottom: 0;
+       width: 140%;
+       height: 15vh;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       z-index: 110;
+       background-color: #fff;
+   }
 }

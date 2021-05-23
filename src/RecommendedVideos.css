@@ -1,5 +1,5 @@
 .RecommendedVideos{
-    flex: 0.8;
+    flex: 0.85;
     background-color: #f9f9f9;
     padding: 40px 20px;
     padding-bottom: 0px;
@@ -11,4 +11,15 @@
 .RecommendedVideos__videos{
     display: flex;
     flex-wrap: wrap;
+}
+@media screen and (max-width:500px){
+    .RecommendedVideos{
+        flex: 1;
+        /* width: 180%; */
+        /* width: 120%; */
+        /* margin-left: 25px ; */
+        padding: 40px 20px;
+        /* display: none; */
+        
+    }
 }
