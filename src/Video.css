@@ -32,7 +32,7 @@
 }
 @media (min-width:280px) and (max-width:600px){
     .video{
-      width: 400px;
+      width: 440px;
     }
     
     .video__thumbnail{
